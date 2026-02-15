@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(mycobot_moveit_config)
+project(mycobot_interfaces)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -7,26 +7,15 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(moveit_ros_planning_interface REQUIRED)
-find_package(moveit_ros_move_group REQUIRED)
-find_package(moveit_kinematics REQUIRED)
-find_package(moveit_planners_ompl REQUIRED)
-find_package(moveit_ros_visualization REQUIRED)
-find_package(rviz2 REQUIRED)
-find_package(rviz_visual_tools REQUIRED)
+find_package(moveit_msgs REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(rclcpp REQUIRED)
 
-# Copy necessary files to designated locations in the project
-install (
-  DIRECTORY config launch rviz
-  DESTINATION share/${PROJECT_NAME}
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "srv/GetPlanningScene.srv"
+  DEPENDENCIES moveit_msgs sensor_msgs
 )
-
-# Install the .setup_assistant file
-install(
-  FILES .setup_assistant
-  DESTINATION share/${PROJECT_NAME}
-)
-
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
