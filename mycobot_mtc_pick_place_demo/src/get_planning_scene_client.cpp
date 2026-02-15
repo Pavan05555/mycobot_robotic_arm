@@ -22,8 +22,6 @@
  * The client sends a request to the GetPlanningScene service and processes the response,
  * providing detailed logging of the received planning scene information.
  *
- * @author Addison Sears-Collins
- * @date December 20, 2024
  */
 
 #include "mycobot_mtc_pick_place_demo/get_planning_scene_client.h"

@@ -19,9 +19,7 @@
  *   - Each point has an associated 3D vector representing its normal vector
  *   - Each point has a curvature value
  *   - Each point has RSD values (minimum and maximum surface radius)
- *
- * @author Addison Sears-Collins
- * @date December 20, 2024
+
  */
 
 // PCL library includes

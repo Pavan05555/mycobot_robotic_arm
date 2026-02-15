@@ -14,8 +14,6 @@ Configuration:
     The node uses configuration from 'config/get_planning_scene_server.yaml'
     in the mycobot_mtc_pick_place_demo package.
 
-:author: Addison Sears-Collins
-:date: December 19, 2024
 """
 
 import os

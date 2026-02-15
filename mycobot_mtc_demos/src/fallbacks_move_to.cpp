@@ -11,8 +11,6 @@
  *   - Pilz path
  *   - OMPL path
  *
- * @author Addison Sears-Collins
- * @date December 19, 2024
  */
 
 #include <rclcpp/rclcpp.hpp>

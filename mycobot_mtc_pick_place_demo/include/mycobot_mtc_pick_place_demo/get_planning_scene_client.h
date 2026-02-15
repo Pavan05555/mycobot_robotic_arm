@@ -10,8 +10,7 @@
  * to request and process planning scene information, including collision objects,
  * point cloud data, and RGB image data.
  *
- * @author Addison Sears-Collins
- * @date December 20, 2024
+
  */
 
 

@@ -6,8 +6,6 @@ This script creates a ROS 2 launch file that starts the necessary nodes for runn
 MoveIt Task Constructor demos. It uses the same configuration structure as the move_group
 launch file to ensure compatibility.
 
-:author: Addison Sears-Collins
-:date: December 18, 2024
 """
 
 import os

@@ -27,8 +27,6 @@
  *     support_surface_id (string): ID of the support surface in the PlanningSceneWorld
  *     success (bool): Indicates if the operation was successful
  *
- * @author Addison Sears-Collins
- * @date December 20, 2024
  */
 
 #include <rclcpp/rclcpp.hpp>

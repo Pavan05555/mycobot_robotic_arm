@@ -11,8 +11,6 @@
  *     Think of it like a to-do list for the robot, where each item must be completed
  *     before moving on to the next one.
  *
- * @author Addison Sears-Collins
- * @date December 19, 2024
  */
 
 // Include necessary headers

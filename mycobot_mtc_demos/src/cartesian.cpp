@@ -5,9 +5,6 @@
  * This program shows how to use MoveIt Task Constructor to plan a series of
  * movements for a robot arm. It includes linear motions, rotations, and joint
  * movements, all planned in Cartesian space.
- *
- * @author Addison Sears-Collins
- * @date December 19, 2024
  */
 
 #include <rclcpp/rclcpp.hpp>

@@ -5,9 +5,7 @@
  * This file contains a function to estimate normal vectors, curvature values,
  * and Radius-based Surface Descriptor (RSD) values for each point in a given point cloud.
  * It uses the PCL library for point cloud processing.
- *
- * @author Addison Sears-Collins
- * @date December 20, 2024
+
  */
 
 #include "mycobot_mtc_pick_place_demo/normals_curvature_and_rsd_estimation.h"

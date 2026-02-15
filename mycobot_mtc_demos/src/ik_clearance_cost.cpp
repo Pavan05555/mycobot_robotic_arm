@@ -5,9 +5,6 @@
  * This program sets up a motion planning task for a mycobot_280 robot arm using MoveIt Task Constructor.
  * It creates a scene with an obstacle, computes inverse kinematics (IK) solutions, and plans a motion
  * while considering clearance from obstacles.
- *
- * @author Addison Sears-Collins
- * @date December 19, 2024
  */
 
 #include <rclcpp/rclcpp.hpp>

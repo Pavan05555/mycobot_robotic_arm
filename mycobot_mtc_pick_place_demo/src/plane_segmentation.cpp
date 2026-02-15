@@ -29,8 +29,6 @@
  * The function processes the input point cloud, removes invalid points, estimates surface normals,
  * identifies potential support surfaces, performs clustering, and extracts the support plane and objects.
  *
- * @author Addison Sears-Collins
- * @date December 20, 2024
  */
 
 #include "mycobot_mtc_pick_place_demo/plane_segmentation.h"

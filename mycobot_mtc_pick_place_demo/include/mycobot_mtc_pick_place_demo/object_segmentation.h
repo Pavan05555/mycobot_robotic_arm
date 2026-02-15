@@ -16,9 +16,7 @@
  *     - Hough transform for model voting and clustering
  *     - Cylinder and box fitting to 3D point clouds
  *     - Creation of collision objects for MoveIt
- *
- * @author Addison Sears-Collins
- * @date December 20, 2024
+
  */
 
 #include <cmath>                                  // For mathematical operations

@@ -7,8 +7,6 @@
  * evaluates them based on different cost terms such as path length, trajectory duration,
  * end-effector motion, and elbow motion.
  *
- * @author Addison Sears-Collins
- * @date December 18, 2024
  */
 
 
